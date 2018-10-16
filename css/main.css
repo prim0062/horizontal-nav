@@ -1,31 +1,65 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', sans-serif;
   line-height: 1.5;
+  background-color: #dbd6cf;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: Bevan, serif;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  border-top: 4px solid #595652;
+  background-color: #79756f;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  padding-top: 6px;
+  padding-bottom: 0;
+}
+
+div {
+  background-color: #79756f;
+  border-bottom: 4px solid #595652;
+  max-width: 650px;
+  min-width: 400px;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
-  text-align: center;
-  color: #000;
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cards {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
 .cards li {
   display: inline-block;
-  margin: .3em;
-  padding: .75em;
-  color: #fff;
-  background-color: #713837;
-  border-radius: 6px;
   text-align: left;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+.cards a {
+  display: inline-block;
+  padding: .75em;
+  background-color: #713837;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cards a:hover {
+  background-color: #f33;
 }
